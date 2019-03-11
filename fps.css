@@ -1,0 +1,13 @@
+.fps-ext {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 99999;
+  background: linear-gradient(#87f1e3 0, #54b7e2 100%);
+  border-radius: 8px;
+}
+
+.fps-ext.is-visible {
+  display: block;
+}
